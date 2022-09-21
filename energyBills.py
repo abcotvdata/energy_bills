@@ -8,7 +8,7 @@ all_surveys = glob.glob(os.path.join('FILEPATH FOR FOLDER WITH ALL SURVEYS', "*.
 
 # list of desired metros
 metros = ['Philadelphia_Metro_Area', 'San.Francisco_Metro_Area', 'Riverside_Metro_Area', 'Los.Angeles_Metro_Area',
-          'Chicago_Metro_Area', 'New.York_Metro_Area', 'Houston_Metro_Area']
+          'Chicago_Metro_Area', 'New.York_Metro_Area', 'Houston_Metro_Area', 'NC']
 
 # create dict of all metros' aggregated surveys
 metro_surveys = {}
