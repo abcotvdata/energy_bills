@@ -1,10 +1,11 @@
 # energy_bills
 Data on energy use and spending, based on Census Household Pulse Survey results from Jul. 2021-Aug. 2022.
 
-<b>Brief Description:</b> Metro-level data on households’ inability to pay energy bills and related experiences in the last year, broken down by various demographics.
+<b>Brief Description</b><br>
+Metro-level data on households’ inability to pay energy bills and related experiences in the last year, broken down by various demographics.
 
 <b>High-Level Findings</b><br>
-Nationwide, more than one in five households have been unable to pay their energy bills in full at least once in the last year. This is an issue in states and cities across the country, including each of our ABC OTV markets:<br>
+Nationwide, more than one in five households have been unable to pay their energy bills in full at least once in the last year. This issue affects states and cities across the country, including each of our ABC OTV markets:<br>
 -	Philadelphia Metro Area:<br>
  •	20.4% of households were unable to pay their energy bills in full at least once in the last year.<br>
  •	28.4% of households reduced or forwent basic necessities, such as food or medicine, to pay an energy bill.<br>
