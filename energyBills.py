@@ -6,9 +6,9 @@ import glob
 path = os.getcwd()
 all_surveys = glob.glob(os.path.join('FILEPATH FOR FOLDER WITH ALL SURVEYS', "*.xlsx"))
 
-# list of desired metros
+# list of desired regions
 metros = ['Philadelphia_Metro_Area', 'San.Francisco_Metro_Area', 'Riverside_Metro_Area', 'Los.Angeles_Metro_Area',
-          'Chicago_Metro_Area', 'New.York_Metro_Area', 'Houston_Metro_Area', 'NC']
+          'Chicago_Metro_Area', 'New.York_Metro_Area', 'Houston_Metro_Area', 'NC', 'US']
 
 # create dict of all metros' aggregated surveys
 metro_surveys = {}
@@ -34,8 +34,6 @@ for week in all_surveys:
                                                                           'Unable_Did_Not_Report'])
         # drop top rows with extraneous info
         current_metro_week = current_metro_week.drop([0, 1, 2, 3, 4, 5])
-        # check if metro is already in overarching dict
-        #if metro in metro_surveys:
         # loop through survey questions
         for field in current_metro_week.columns[1:]:
                 # loop through respondent characteristics
